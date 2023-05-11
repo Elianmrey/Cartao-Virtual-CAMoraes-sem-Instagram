@@ -10,7 +10,7 @@ html
     src: local("RobotoR"), url("../fonts/Roboto-Regular.ttf") format("truetype");
     
 }
-/* body{ background-color: #292861;} */
+
 *
 {
     box-sizing: border-box;
@@ -22,11 +22,11 @@ html
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: linear-gradient(-45deg, #b30505, #4b0707, #250202, #000000);
+    background-image: linear-gradient(-45deg, #020B23, #02163b, #051C46, #000000);
     margin: 0 auto;
     width: 375px;
     height: 100%;
-    box-shadow: 5px 10px 50px rgb(0, 0, 0);
+    box-shadow: 5px 10px 50px rgb(3, 0, 32);
    
 }
 #foto-perfil
@@ -35,7 +35,7 @@ html
     margin-top: 30px;
     width: 100px;
     border-radius: 50%;
-    box-shadow: 10px 5px 50px #000000;
+    box-shadow: 10px 5px 50px rgb(3, 0, 32);
 }
 nav
 {
@@ -112,7 +112,7 @@ div#general-info
     background-color: #e0dfdf;
     display: flex;
     flex-wrap: nowrap;
-    box-shadow: 5px 10px 50px rgb(0, 0, 0);
+    box-shadow: 5px 10px 50px rgb(3, 0, 32);
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
 }
@@ -136,20 +136,20 @@ svg.item-icons
      width: 40px;
     height: 30px;
     fill: #4e4b4b;
+padding: 15px 10;
     
 }
 svg.item-icons:hover
 {
    fill: #FFF
 }
-
-a.icones-laterais
+a.icones-laterais 
 {
-     padding: 33px 11px;
+     padding: 20px 5px;
 }
 a.icones-laterais:hover
 {
-   background-color: #1E1E1E;
+   background-color: #100055;
 }
 a.icones-laterais:active
 {
@@ -174,42 +174,13 @@ span.title-info-card
 {
 font-family: RobotoR, sans-serif;
 font-size: 15px;
+padding-top: 10px;
+padding-bottom: 10px;
 }
 
-div#button-add-user
-{
-  border-radius: 50%;
-  background-color: #ff0000;  
-  width: 40px;
-  height: 40px;
-}
-button.button-share
-{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50%;
-    background-color: #ffffff;  
-    width: 45px;
-    height: 45px;
-}
-svg.iconsadd
-{
-    width: 20px;
-}
 
-button#share-by
-{
-    position: absolute;
-    top: 81%;
-    left: 85%;
-}
-button#add-to
-{
-    position: absolute;
-    top: 90%;
-    left: 85%;
-}
+
+
 
 div#maps
 {
@@ -225,8 +196,15 @@ a.links-inf-ger
     color: #1E1E1E;
     display: flex;
     flex-direction: column;
-    padding: 25px;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    padding-right: 10px;
     justify-content:space-evenly;
+}
+a#last-item.links-inf-ger
+{
+border-bottom-right-radius: 20px;
 }
 
 a.links-inf-ger:hover
@@ -265,7 +243,7 @@ a.cabeceira:hover
     display: none;
     border-radius: 20px;
     margin-bottom: 20px;
-    box-shadow: 5px 10px 50px rgb(0, 0, 0);
+    box-shadow: 5px 10px 50px rgb(3, 0, 32);
 }
 #mostramap
 {
@@ -284,7 +262,7 @@ a.cabeceira:hover
 {
     body
     {
-    background-image: linear-gradient(180deg, #b30505, #4b0707, #250202, #000000);
+    background-image: linear-gradient(-45deg, #020B23, #02163b, #051C46, #100244);
     background-origin: content-box;
     }
     button#share-by

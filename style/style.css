@@ -1,0 +1,298 @@
+
+html
+{
+    width: 100%;
+    height: 100%;
+}
+@font-face
+{
+    font-family: "RobotoR";
+    src: local("RobotoR"), url("../fonts/Roboto-Regular.ttf") format("truetype");
+    
+}
+/* body{ background-color: #292861;} */
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#header-div
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(-45deg, #b30505, #4b0707, #250202, #000000);
+    margin: 0 auto;
+    width: 375px;
+    height: 100%;
+    box-shadow: 5px 10px 50px rgb(0, 0, 0);
+   
+}
+#foto-perfil
+{
+    border: 2px solid #FFF;
+    margin-top: 30px;
+    width: 100px;
+    border-radius: 50%;
+    box-shadow: 10px 5px 50px #000000;
+}
+nav
+{
+margin-top: 40px;
+display: flex;
+flex-wrap: nowrap;
+border-top: 1px solid #FFF;
+width: 100%;
+height: 11vh;
+justify-content: space-evenly;
+align-items: center;
+
+
+}
+div.item-contact
+{
+    color: #FFF;
+    width: 188px;
+    height: 11vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+div.item-contact:first-child
+{
+    border-right: 1px solid #FFF;
+}
+div.item-contact:last-child
+{
+    border-left: 1px solid #FFF
+}
+svg.call-email-address
+{
+    fill: #FFF;
+    width: 30px;
+    height: 30px;
+}
+span.acoes
+{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+span#name
+{
+    color: rgb(230, 229, 229);
+    font-family: RobotoR;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 15px;
+}
+span#company-position
+{
+    text-align: center;
+    color:rgb(230, 229, 229);
+    font-family: RobotoR;
+    font-size: 12px;
+    margin-top: 10px;
+}
+ div#conteiner
+{
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+} 
+div#general-info
+{
+    justify-content: space-evenly ;
+    margin: 0 auto;
+    width: 375px;
+    height: 100%;
+    background-color: #e0dfdf;
+    display: flex;
+    flex-wrap: nowrap;
+    box-shadow: 5px 10px 50px rgb(0, 0, 0);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+div#info-content
+{
+    width: 400px;
+    padding: 0;
+}
+div#icons
+{
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 80px;
+    height: 400px;
+ }
+
+svg.item-icons
+{
+     width: 40px;
+    height: 30px;
+    fill: #4e4b4b;
+    
+}
+svg.item-icons:hover
+{
+   fill: #FFF
+}
+
+a.icones-laterais
+{
+     padding: 33px 11px;
+}
+a.icones-laterais:hover
+{
+   background-color: #1E1E1E;
+}
+a.icones-laterais:active
+{
+   background-color: #1E1E1E;
+}
+
+div.item-info
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-family: RobotoR;
+    height: 100px;
+    width: 310px;
+    border-bottom: 1px solid #aaa7a7;
+}
+div.item-info:last-child
+{
+    border-bottom: none;
+}
+span.title-info-card
+{
+font-family: RobotoR, sans-serif;
+font-size: 15px;
+}
+
+div#button-add-user
+{
+  border-radius: 50%;
+  background-color: #ff0000;  
+  width: 40px;
+  height: 40px;
+}
+button.button-share
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #ffffff;  
+    width: 45px;
+    height: 45px;
+}
+svg.iconsadd
+{
+    width: 20px;
+}
+
+button#share-by
+{
+    position: absolute;
+    top: 81%;
+    left: 85%;
+}
+button#add-to
+{
+    position: absolute;
+    top: 90%;
+    left: 85%;
+}
+
+div#maps
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    width: 375px;
+}
+a.links-inf-ger
+{
+     text-decoration: none;
+    color: #1E1E1E;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    justify-content:space-evenly;
+}
+
+a.links-inf-ger:hover
+{
+    background-color: #1E1E1E;
+    color: #FFF;
+}
+a.links-inf-ger:active
+{
+    background-color: #1E1E1E;
+    color: #FFF;
+}
+a.cabeceira
+{
+    text-decoration: none;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    padding:  7px 35px;
+
+}
+
+a.cabeceira:hover
+{
+    color: #FFF;
+    background-color: #1E1E1E;
+    
+}
+
+
+#iframap
+{
+    display: none;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    box-shadow: 5px 10px 50px rgb(0, 0, 0);
+}
+#mostramap
+{
+    background-color: #1E1E1E;
+    color: #FFF;
+    width: 100px;
+    height: 40px;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+
+
+/* ===========================================  Desktop  ======================================================== */
+@media (min-width: 500px)
+{
+    body
+    {
+    background-image: linear-gradient(180deg, #b30505, #4b0707, #250202, #000000);
+    background-origin: content-box;
+    }
+    button#share-by
+    {
+    left: 60%;
+    }
+        button#add-to
+        {
+        left: 60%;
+        }
+}

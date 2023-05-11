@@ -97,6 +97,14 @@ span#company-position
     font-size: 12px;
     margin-top: 10px;
 }
+span#creci
+{
+    text-align: center;
+    color:rgb(230, 229, 229);
+    font-family: RobotoR;
+    font-size: 12px;
+    margin-top: 10px;
+}
  div#conteiner
 {
     display: flex;
@@ -136,7 +144,7 @@ svg.item-icons
      width: 40px;
     height: 30px;
     fill: #4e4b4b;
-padding: 15px 10;
+
     
 }
 svg.item-icons:hover
@@ -145,15 +153,15 @@ svg.item-icons:hover
 }
 a.icones-laterais 
 {
-     padding: 20px 5px;
+     padding: 33px 11px;
 }
 a.icones-laterais:hover
 {
-   background-color: #100055;
+   background-color: #02163b;
 }
 a.icones-laterais:active
 {
-   background-color: #1E1E1E;
+   background-color: #02163b;
 }
 
 div.item-info
@@ -209,12 +217,12 @@ border-bottom-right-radius: 20px;
 
 a.links-inf-ger:hover
 {
-    background-color: #1E1E1E;
+    background-color: #02163b;
     color: #FFF;
 }
 a.links-inf-ger:active
 {
-    background-color: #1E1E1E;
+    background-color: #02163b;
     color: #FFF;
 }
 a.cabeceira

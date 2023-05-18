@@ -17,6 +17,7 @@ html
     margin: 0;
     padding: 0;
 }
+
 #header-div
 {
     display: flex;
@@ -28,8 +29,8 @@ html
     width: 375px;
     height: 40vh;
     box-shadow: 5px 10px 50px rgb(3, 0, 32);
-   
 }
+
 #foto-perfil
 {
     border: 2px solid #FFF;
@@ -38,62 +39,6 @@ html
     box-shadow: 10px 5px 50px rgb(3, 0, 32);
 }
 
-
-div.item-contact
-{
-    color: #FFF;
-    width: 188px;
-    height: 11vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    
-    flex-wrap: nowrap;
-}
-div.item-contact:first-child
-{
-    border-right: 1px solid #FFF;
-}
-div.item-contact:last-child
-{
-    border-left: 1px solid #FFF
-}
-svg.call-email-address
-{
-    fill: #FFF;
-    width: 30px;
-    height: 30px;
-}
-span.acoes
-{
-    font-size: 15px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-span#name
-{
-    color: rgb(230, 229, 229);
-    font-family: RobotoR;
-    font-weight: bold;
-    font-size: 15px;
-    margin-top: 15px;
-}
-span#company-position
-{
-    text-align: center;
-    color:rgb(230, 229, 229);
-    font-family: RobotoR;
-    font-size: 12px;
-    margin-top: 10px;
-}
-span#creci
-{
-    text-align: center;
-    color:rgb(230, 229, 229);
-    font-family: RobotoR;
-    font-size: 12px;
-    margin-top: 10px;
-}
  div#conteiner
 {
     display: flex;
@@ -102,23 +47,21 @@ span#creci
 } 
 div#general-info
 {
-    justify-content: space-evenly ;
+    align-items: center;
+    justify-content: center ;
     margin: 0 auto;
     width: 375px;
     height: 100%;
     background-color: #e0dfdf;
     display: flex;
-    flex-wrap: nowrap;
     box-shadow: 5px 10px 50px rgb(3, 0, 32);
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
 }
 div#info-content
 {
-    width: 400px;
-    padding: 0;
+    width: 375px;
     display:flex;
-    flex-wrap: nowrap;
     flex-direction: column;
 }
 
@@ -127,9 +70,20 @@ svg.item-icons
      width: 40px;
     height: 40px;
     fill: #4e4b4b;
-
-    
+    margin-left: 40px;
 }
+
+svg#item-instagram
+{
+    width: 45px;
+    height: 45px;
+}
+svg#item-whatsapp
+{
+    width: 45px;
+    height: 45px;
+}
+
 svg.item-icons:hover
 {
    fill: #FFF
@@ -149,19 +103,23 @@ a.icones-laterais:active
 
 div.item-info
 {
-    display: flex;
-    
-    justify-content: space-between;
+    display: block;
+    text-align: center;
     font-family: RobotoR;
     height: 100px;
-    width: 400px;
+    width: 365px;
     border-bottom: 1px solid #aaa7a7;
 }
+
 div.item-info:last-child
 {
     border-bottom: none;
 }
-
+span.info-names
+{
+    vertical-align: middle;
+    margin-left: 80px;
+}
 
 div#maps
 {
@@ -176,12 +134,11 @@ a.links-inf-ger
      text-decoration: none;
     color: #1E1E1E;
     display: flex;
-    gap: 10px;
-    padding-top: 20px;
-    padding-left: 10px;
-    padding-bottom: 20px;
-    padding-right: 10px;
-    justify-content:space-evenly;
+    width: 375px;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
 }
 a#last-item.links-inf-ger
 {
@@ -227,6 +184,7 @@ a.links-inf-ger:active
     {
     background-image: linear-gradient(-45deg, #020B23, #02163b, #051C46, #100244);
     background-origin: content-box;
+    background-attachment: fixed;
     }
    
 }

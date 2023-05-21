@@ -20,6 +20,7 @@ html
 
 #header-div
 {
+    overflow: hidden;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -31,15 +32,28 @@ html
     box-shadow: 5px 10px 50px rgb(3, 0, 32);
 }
 
+img#transparent-bckg
+{
+    opacity: 0.1;
+    width: 160px;
+    position: relative;
+    top: 120px;
+    left: 160px;
+    z-index: 2;
+} 
+
 #foto-perfil
 {
-    border: 2px solid #FFF;
-    width: 200px;
-    border-radius: 50%;
-    box-shadow: 10px 5px 50px rgb(3, 0, 32);
+    /* border: 1px solid #FFF; */
+    position: absolute;
+    width: 150px;
+    z-index: 1;
+    /* border-radius: 50%; */
+    /* box-shadow: 10px 5px 50px rgb(3, 0, 32); */
 }
 
- div#conteiner
+
+div#conteiner
 {
     display: flex;
     align-items: center;
@@ -147,9 +161,18 @@ border-bottom-right-radius: 20px;
 
 a.links-inf-ger:hover
 {
+    
     background-color: #02163b;
     color: #FFF;
 }
+
+a.links-inf-ger#last-link-item:hover
+{
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    /* border: 1px solid white; */
+}
+
 a.links-inf-ger:active
 {
     background-color: #02163b;
